@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-image: url('./images/background.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 400px;
+    height: 300px;
+}
+
+.element {
+    margin: 4px;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    align-self: center;
+    justify-self: center;
+}
+
+.bordered {
+    border: 3px solid white;
+}
+
+#play {
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+
+.error {
+    color: crimson;
+}
